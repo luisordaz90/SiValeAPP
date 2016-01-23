@@ -13,6 +13,20 @@
 		BB2B98701B49AD82006FE801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2B986F1B49AD82006FE801 /* Images.xcassets */; };
 		BB2B98731B49AD82006FE801 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2B98711B49AD82006FE801 /* LaunchScreen.xib */; };
 		BB2B987F1B49AD82006FE801 /* SiValeAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B987E1B49AD82006FE801 /* SiValeAPPTests.m */; };
+		BB2B988B1B49AF69006FE801 /* AccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B98891B49AF69006FE801 /* AccountsViewController.m */; };
+		BB2B988C1B49AF69006FE801 /* AccountsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2B988A1B49AF69006FE801 /* AccountsViewController.xib */; };
+		BB9B5DAE1BFE30B400113D56 /* GenericSoapEnv.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5DAD1BFE30B400113D56 /* GenericSoapEnv.m */; };
+		BB9B5DB41BFE420200113D56 /* GenericSoapEnvFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5DB31BFE420200113D56 /* GenericSoapEnvFormatter.m */; };
+		BBB162B21BFB6E73008D2E36 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB162B11BFB6E73008D2E36 /* GDataXMLNode.m */; };
+		BBBDB8821B4CD40C0081EE09 /* NSString+WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDB87F1B4CD40C0081EE09 /* NSString+WebService.m */; };
+		BBBDB8831B4CD40C0081EE09 /* iOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDB8811B4CD40C0081EE09 /* iOSRequest.m */; };
+		BBBDB8891B4CDDD90081EE09 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDB8881B4CDDD90081EE09 /* XMLReader.m */; };
+		BBBDB88D1B4E1B7C0081EE09 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDB88C1B4E1B7C0081EE09 /* CommonMethods.m */; };
+		BBBDB8901B4E200D0081EE09 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBDB88F1B4E200D0081EE09 /* gear@2x.png */; };
+		BBBDB8941B4E22E80081EE09 /* AddAccntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDB8921B4E22E80081EE09 /* AddAccntViewController.m */; };
+		BBBDB8951B4E22E80081EE09 /* AddAccntViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDB8931B4E22E80081EE09 /* AddAccntViewController.xib */; };
+		BBFB6D871B4B8AD8008844C2 /* AccountCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFB6D851B4B8AD8008844C2 /* AccountCellTableViewCell.m */; };
+		BBFB6D881B4B8AD8008844C2 /* AccountCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFB6D861B4B8AD8008844C2 /* AccountCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +51,30 @@
 		BB2B98781B49AD82006FE801 /* SiValeAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiValeAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2B987D1B49AD82006FE801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB2B987E1B49AD82006FE801 /* SiValeAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiValeAPPTests.m; sourceTree = "<group>"; };
+		BB2B98881B49AF69006FE801 /* AccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsViewController.h; sourceTree = "<group>"; };
+		BB2B98891B49AF69006FE801 /* AccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsViewController.m; sourceTree = "<group>"; };
+		BB2B988A1B49AF69006FE801 /* AccountsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountsViewController.xib; sourceTree = "<group>"; };
+		BB9B5DAC1BFE30B400113D56 /* GenericSoapEnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericSoapEnv.h; sourceTree = "<group>"; };
+		BB9B5DAD1BFE30B400113D56 /* GenericSoapEnv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericSoapEnv.m; sourceTree = "<group>"; };
+		BB9B5DB21BFE420200113D56 /* GenericSoapEnvFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericSoapEnvFormatter.h; sourceTree = "<group>"; };
+		BB9B5DB31BFE420200113D56 /* GenericSoapEnvFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericSoapEnvFormatter.m; sourceTree = "<group>"; };
+		BBB162B01BFB6E73008D2E36 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		BBB162B11BFB6E73008D2E36 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		BBBDB87E1B4CD40C0081EE09 /* NSString+WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WebService.h"; sourceTree = "<group>"; };
+		BBBDB87F1B4CD40C0081EE09 /* NSString+WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WebService.m"; sourceTree = "<group>"; };
+		BBBDB8801B4CD40C0081EE09 /* iOSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSRequest.h; sourceTree = "<group>"; };
+		BBBDB8811B4CD40C0081EE09 /* iOSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSRequest.m; sourceTree = "<group>"; };
+		BBBDB8871B4CDDD90081EE09 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		BBBDB8881B4CDDD90081EE09 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		BBBDB88B1B4E1B7C0081EE09 /* CommonMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethods.h; sourceTree = "<group>"; };
+		BBBDB88C1B4E1B7C0081EE09 /* CommonMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethods.m; sourceTree = "<group>"; };
+		BBBDB88F1B4E200D0081EE09 /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
+		BBBDB8911B4E22E80081EE09 /* AddAccntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAccntViewController.h; sourceTree = "<group>"; };
+		BBBDB8921B4E22E80081EE09 /* AddAccntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAccntViewController.m; sourceTree = "<group>"; };
+		BBBDB8931B4E22E80081EE09 /* AddAccntViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAccntViewController.xib; sourceTree = "<group>"; };
+		BBFB6D841B4B8AD8008844C2 /* AccountCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountCellTableViewCell.h; sourceTree = "<group>"; };
+		BBFB6D851B4B8AD8008844C2 /* AccountCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountCellTableViewCell.m; sourceTree = "<group>"; };
+		BBFB6D861B4B8AD8008844C2 /* AccountCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountCellTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +116,20 @@
 		BB2B98651B49AD82006FE801 /* SiValeAPP */ = {
 			isa = PBXGroup;
 			children = (
+				BBB162AC1BF7D8CA008D2E36 /* Model */,
+				BBBDB88E1B4E1FFD0081EE09 /* Icons */,
+				BBBDB88A1B4E1B030081EE09 /* CommonAPIs */,
+				BBBDB87D1B4CD3F80081EE09 /* WebService */,
+				BBFB6D831B4B8A35008844C2 /* Cells */,
 				BB2B986A1B49AD82006FE801 /* AppDelegate.h */,
 				BB2B986B1B49AD82006FE801 /* AppDelegate.m */,
 				BB2B986D1B49AD82006FE801 /* SiValeAPP-Prefix.pch */,
+				BB2B98881B49AF69006FE801 /* AccountsViewController.h */,
+				BB2B98891B49AF69006FE801 /* AccountsViewController.m */,
+				BB2B988A1B49AF69006FE801 /* AccountsViewController.xib */,
+				BBBDB8911B4E22E80081EE09 /* AddAccntViewController.h */,
+				BBBDB8921B4E22E80081EE09 /* AddAccntViewController.m */,
+				BBBDB8931B4E22E80081EE09 /* AddAccntViewController.xib */,
 				BB2B986F1B49AD82006FE801 /* Images.xcassets */,
 				BB2B98711B49AD82006FE801 /* LaunchScreen.xib */,
 				BB2B98661B49AD82006FE801 /* Supporting Files */,
@@ -112,6 +161,59 @@
 				BB2B987D1B49AD82006FE801 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBB162AC1BF7D8CA008D2E36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BBBDB87D1B4CD3F80081EE09 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDB8871B4CDDD90081EE09 /* XMLReader.h */,
+				BBBDB8881B4CDDD90081EE09 /* XMLReader.m */,
+				BBBDB87E1B4CD40C0081EE09 /* NSString+WebService.h */,
+				BBBDB87F1B4CD40C0081EE09 /* NSString+WebService.m */,
+				BBBDB8801B4CD40C0081EE09 /* iOSRequest.h */,
+				BBBDB8811B4CD40C0081EE09 /* iOSRequest.m */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		BBBDB88A1B4E1B030081EE09 /* CommonAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B5DB21BFE420200113D56 /* GenericSoapEnvFormatter.h */,
+				BB9B5DB31BFE420200113D56 /* GenericSoapEnvFormatter.m */,
+				BB9B5DAC1BFE30B400113D56 /* GenericSoapEnv.h */,
+				BB9B5DAD1BFE30B400113D56 /* GenericSoapEnv.m */,
+				BBB162B01BFB6E73008D2E36 /* GDataXMLNode.h */,
+				BBB162B11BFB6E73008D2E36 /* GDataXMLNode.m */,
+				BBBDB88B1B4E1B7C0081EE09 /* CommonMethods.h */,
+				BBBDB88C1B4E1B7C0081EE09 /* CommonMethods.m */,
+			);
+			name = CommonAPIs;
+			sourceTree = "<group>";
+		};
+		BBBDB88E1B4E1FFD0081EE09 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDB88F1B4E200D0081EE09 /* gear@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		BBFB6D831B4B8A35008844C2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BBFB6D841B4B8AD8008844C2 /* AccountCellTableViewCell.h */,
+				BBFB6D851B4B8AD8008844C2 /* AccountCellTableViewCell.m */,
+				BBFB6D861B4B8AD8008844C2 /* AccountCellTableViewCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +296,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2B988C1B49AF69006FE801 /* AccountsViewController.xib in Resources */,
+				BBBDB8901B4E200D0081EE09 /* gear@2x.png in Resources */,
+				BBBDB8951B4E22E80081EE09 /* AddAccntViewController.xib in Resources */,
 				BB2B986E1B49AD82006FE801 /* SiValeAPP-Prefix.pch in Resources */,
 				BB2B98731B49AD82006FE801 /* LaunchScreen.xib in Resources */,
 				BB2B98701B49AD82006FE801 /* Images.xcassets in Resources */,
+				BBFB6D881B4B8AD8008844C2 /* AccountCellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +321,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2B986C1B49AD82006FE801 /* AppDelegate.m in Sources */,
+				BBBDB8941B4E22E80081EE09 /* AddAccntViewController.m in Sources */,
+				BBBDB8831B4CD40C0081EE09 /* iOSRequest.m in Sources */,
+				BBFB6D871B4B8AD8008844C2 /* AccountCellTableViewCell.m in Sources */,
+				BBBDB8821B4CD40C0081EE09 /* NSString+WebService.m in Sources */,
 				BB2B98691B49AD82006FE801 /* main.m in Sources */,
+				BB2B988B1B49AF69006FE801 /* AccountsViewController.m in Sources */,
+				BBB162B21BFB6E73008D2E36 /* GDataXMLNode.m in Sources */,
+				BBBDB8891B4CDDD90081EE09 /* XMLReader.m in Sources */,
+				BB9B5DB41BFE420200113D56 /* GenericSoapEnvFormatter.m in Sources */,
+				BBBDB88D1B4E1B7C0081EE09 /* CommonMethods.m in Sources */,
+				BB9B5DAE1BFE30B400113D56 /* GenericSoapEnv.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,9 +401,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,",
+					/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -324,6 +446,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -402,6 +525,7 @@
 				BB2B98841B49AD82006FE801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB2B98851B49AD82006FE801 /* Build configuration list for PBXNativeTarget "SiValeAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +534,7 @@
 				BB2B98871B49AD82006FE801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

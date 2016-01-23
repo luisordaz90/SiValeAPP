@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AccountsViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) AccountsViewController *firstController;
+@property (strong, nonatomic) UINavigationController *baseController;
+
 
 
 @end
