@@ -9,7 +9,23 @@
 #import <UIKit/UIKit.h>
 #import "iOSRequest.h"
 #import "CommonMethods.h"
+#import "AccountManager.h"
+#import "GenericSoapEnvFormatter.h"
+#import "accountData.h"
+#import "iOSRequest.h"
+#import "DBManager.h"
 
-@interface AddAccntViewController : UIViewController
+@interface AddAccntViewController : UIViewController <UITextViewDelegate>
+
+@property (strong, nonatomic) UITextField *cardAlias;
+@property (strong, nonatomic)  UITextField *cardNumber;
+@property (strong, nonatomic)  UITextField *password;
+@property (strong, nonatomic)  UILabel *lblCardAlias;
+@property (strong, nonatomic)  UILabel *lblPassword;
+@property (strong, nonatomic)  UILabel *lblCardNumber;
+@property (strong, nonatomic)  UIView *container;
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
+@property (strong, nonatomic) UIButton *registerButton;
+- (IBAction)validateInformation:(id)sender;
 
 @end

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D0E1A6C-EFC5-4D61-BDC0-98114741081A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SiValeAPP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>760876E90E0EE4D83621C582803B5F538C64BCEE</key>
+		<string>https://github.com/luisordaz90/SiValeAPP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SiValeAPP.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>760876E90E0EE4D83621C582803B5F538C64BCEE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/luisordaz90/SiValeAPP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>760876E90E0EE4D83621C582803B5F538C64BCEE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>760876E90E0EE4D83621C582803B5F538C64BCEE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SiValeAPP</string>
+		</dict>
+	</array>
+</dict>
+</plist>

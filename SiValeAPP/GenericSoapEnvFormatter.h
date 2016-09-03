@@ -15,5 +15,4 @@
 +(NSData *)getBalances: (NSArray *) parameters;
 +(NSData *)getTransactions: (NSArray *) parameters;
 +(NSData *) genericSoapRequest: (NSString *)action parameters: (NSArray *) parameters;
-+(void) constructActionElement: (GDataXMLElement **) actionElem withEnvelope: (GenericSoapEnv *) envelope;
 @end

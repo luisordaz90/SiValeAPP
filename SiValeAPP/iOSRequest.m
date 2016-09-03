@@ -12,6 +12,7 @@
 NSString *basePath = @"http://148.223.134.18:8888/bancamovil/WebMethods";
 
 @implementation iOSRequest
+
 +(void)requestPath:(NSData *) xmlData onCompletion:(RequestCompletionHandler)complete
 {
     // Background Queue
@@ -20,7 +21,7 @@ NSString *basePath = @"http://148.223.134.18:8888/bancamovil/WebMethods";
     // URL Request
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString: basePath]
                                                   cachePolicy:0
-                                              timeoutInterval:60];
+                                              timeoutInterval:30];
     [request setHTTPMethod:@"POST"];
     [request setValue:@"text/xml; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
     [request setHTTPBody: xmlData];
@@ -31,7 +32,6 @@ NSString *basePath = @"http://148.223.134.18:8888/bancamovil/WebMethods";
                            completionHandler:^(NSURLResponse *response, NSData *data, NSError *error)
     {
 
-        /*NSLog(@"LOG ARR: %@",[[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]);*/
         if (complete) complete(data,error);
                            
     }
@@ -46,28 +46,28 @@ NSString *basePath = @"http://148.223.134.18:8888/bancamovil/WebMethods";
             if (complete) complete(nil);
         } else {
             int i = 0;
-            GDataXMLDocument *doc = [[GDataXMLDocument alloc] initWithData:result options:0 error:&error];
-            NSMutableDictionary *testDict = [[NSMutableDictionary alloc]init];
-            NSArray *partyMembers = [[NSArray alloc] init];
+            GDataXMLDocument *xmlTree = [[GDataXMLDocument alloc] initWithData:result options:0 error:&error];
+            NSMutableDictionary *returnDictionary = [[NSMutableDictionary alloc]init];
+            NSArray *envelopeElements = [[NSArray alloc] init];
             if ([action isEqualToString:@"login"]) {
-                partyMembers = [doc nodesForXPath:@"//item/*" error:nil];
+                envelopeElements = [xmlTree nodesForXPath:@"//item/*" error:nil];
             }
             else
                 if([action isEqualToString:@"balances"]){
-                    partyMembers = [doc nodesForXPath:@"//saldo" error:nil];
+                    envelopeElements = [xmlTree nodesForXPath:@"//saldo" error:nil];
                 }
                 else{
-                    partyMembers = [doc nodesForXPath:@"//objMovimientos/*" error:nil];
+                    envelopeElements = [xmlTree nodesForXPath:@"//objMovimientos/*" error:nil];
                 }
-            
-            for(GDataXMLNode *node in partyMembers){
+
+            for(GDataXMLNode *node in envelopeElements){
                 if(action == nil)
-                    [testDict setValue:[node stringValue] forKey:[[node name] stringByAppendingFormat:@"%d",i++]];
+                    [returnDictionary setValue:[node stringValue] forKey:[[node name] stringByAppendingFormat:@"%d",i++]];
                 else{
-                    [testDict setValue:[node stringValue] forKey:[node name]];
+                    [returnDictionary setValue:[node stringValue] forKey:[node name]];
                 }
             }
-            if (complete) complete(testDict);
+            if (complete) complete(returnDictionary);
         }
     }];
 }

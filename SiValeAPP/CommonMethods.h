@@ -12,5 +12,9 @@
 @interface CommonMethods : NSObject
 
 +(void) initNavController: (UIViewController *) navController withTitle: (NSString *)title;
-
++(NSAttributedString *)createAttrString: (NSString *) text withFont: (NSString *) font withSize: (CGFloat) size andColor: (UIColor *) color;
++(NSString *)formattedDateString: (NSDate *) currDate;
++(UIColor *)colorFromHexString:(NSString *)hexString andAlpha: (BOOL) alpha;
++(UIView *)generateLoadingView: (CGRect) dimensions andIndicatorDimensions:(CGRect)indicator_dimensions andAlpha: (BOOL) alpha;
++(CGSize) getScreenDimensions;
 @end

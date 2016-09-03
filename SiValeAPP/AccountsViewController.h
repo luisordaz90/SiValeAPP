@@ -8,16 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "AccountCellTableViewCell.h"
+#import "AddAccntViewController.h"
+#import "GenericSoapEnvFormatter.h"
+#import "accountData.h"
 #import "iOSRequest.h"
 #import "CommonMethods.h"
-#import "AddAccntViewController.h"
-#import "GDataXMLNode.h"
-#import "GenericSoapEnv.h"
-#import "GenericSoapEnvFormatter.h"
+#import "AccountManager.h"
 
-
-@interface AccountsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextViewDelegate>
+@interface AccountsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextViewDelegate, AccountCellTouch>
 @property (weak, nonatomic) IBOutlet UITableView *accountTable;
+@property (weak, nonatomic) IBOutlet UIImageView *placeholder;
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
 @property (strong,nonatomic) AddAccntViewController *addAccntView;
 
 @end

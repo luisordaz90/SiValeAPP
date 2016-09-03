@@ -8,6 +8,11 @@
 
 #import "CommonMethods.h"
 
+@interface CommonMethods()
+    @property CGFloat screenWidth;
+    @property CGFloat screenHeight;
+@end
+
 @implementation CommonMethods
 
 + (UIColor *)colorFromHexString:(NSString *)hexString andAlpha: (BOOL) alpha{
@@ -35,4 +40,38 @@
     [viewController.navigationItem setTitleView: navTitle];
     
 }
+
++(NSAttributedString *)createAttrString: (NSString *) text withFont: (NSString *) font withSize: (CGFloat) size andColor: (UIColor *) color{
+    
+    NSAttributedString *returnString = [[NSAttributedString alloc] initWithString:text attributes:@{NSFontAttributeName :[UIFont fontWithName:font size: size], NSForegroundColorAttributeName :color}];
+    
+    return returnString;
+}
+
++(NSString *)formattedDateString: (NSDate *) currDate{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    NSLocale *mxLocale = [NSLocale localeWithLocaleIdentifier:@"es"];
+    [formatter setDateFormat:@"MMMM dd, h:mm a"];
+    [formatter setLocale:mxLocale];
+    [formatter setAMSymbol:@"AM"];
+    [formatter setPMSymbol:@"PM"];
+    return [formatter stringFromDate: currDate];
+}
+
++ (UIView *)generateLoadingView: (CGRect) dimensions andIndicatorDimensions:(CGRect)indicator_dimensions andAlpha: (BOOL) alpha{
+    UIView *loadingView = [[UIView alloc] initWithFrame:dimensions];
+    loadingView.layer.cornerRadius = 5;
+    if(alpha)
+        [loadingView setBackgroundColor:[self colorFromHexString:@"#000000" andAlpha:YES]];
+    UIActivityIndicatorView *spinning = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    spinning.frame = indicator_dimensions;
+    [spinning startAnimating];
+    [loadingView addSubview:spinning];
+    return loadingView;
+}
+
++(CGSize) getScreenDimensions{
+    return [[UIScreen mainScreen] bounds].size;
+}
+
 @end

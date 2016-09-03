@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0638191D6A4CBC00C8CFDB /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0638171D6A4CBC00C8CFDB /* Fabric.framework */; };
+		BB06381A1D6A4CBC00C8CFDB /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0638181D6A4CBC00C8CFDB /* Crashlytics.framework */; };
 		BB2B98691B49AD82006FE801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B98681B49AD82006FE801 /* main.m */; };
 		BB2B986C1B49AD82006FE801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B986B1B49AD82006FE801 /* AppDelegate.m */; };
 		BB2B986E1B49AD82006FE801 /* SiValeAPP-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = BB2B986D1B49AD82006FE801 /* SiValeAPP-Prefix.pch */; };
@@ -15,9 +17,17 @@
 		BB2B987F1B49AD82006FE801 /* SiValeAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B987E1B49AD82006FE801 /* SiValeAPPTests.m */; };
 		BB2B988B1B49AF69006FE801 /* AccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B98891B49AF69006FE801 /* AccountsViewController.m */; };
 		BB2B988C1B49AF69006FE801 /* AccountsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2B988A1B49AF69006FE801 /* AccountsViewController.xib */; };
+		BB739F801D4C97E700F9314E /* placeholder_background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB739F7F1D4C97E700F9314E /* placeholder_background@2x.jpg */; };
+		BB739F821D4C9CBE00F9314E /* placeholder_payroll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB739F811D4C9CBE00F9314E /* placeholder_payroll@2x.png */; };
+		BB80F4E51D41D506009122BA /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80F4E41D41D506009122BA /* AccountManager.m */; };
 		BB9B5DAE1BFE30B400113D56 /* GenericSoapEnv.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5DAD1BFE30B400113D56 /* GenericSoapEnv.m */; };
 		BB9B5DB41BFE420200113D56 /* GenericSoapEnvFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5DB31BFE420200113D56 /* GenericSoapEnvFormatter.m */; };
+		BBA9CA431D54ADC1007895A7 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA9CA421D54ADC1007895A7 /* DBManager.m */; };
+		BBAE2A171C9A1997006F9D95 /* DBHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAE2A161C9A1997006F9D95 /* DBHandler.m */; };
+		BBAE2A1D1C9A1DAA006F9D95 /* accountData.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAE2A1C1C9A1DAA006F9D95 /* accountData.m */; };
+		BBB120121D521EEB00059194 /* master_db.sql in Resources */ = {isa = PBXBuildFile; fileRef = BBB120111D521EEB00059194 /* master_db.sql */; };
 		BBB162B21BFB6E73008D2E36 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB162B11BFB6E73008D2E36 /* GDataXMLNode.m */; };
+		BBB3282D1D55103B00F74FF2 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB3282C1D55103B00F74FF2 /* CustomButton.m */; };
 		BBBDB8821B4CD40C0081EE09 /* NSString+WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDB87F1B4CD40C0081EE09 /* NSString+WebService.m */; };
 		BBBDB8831B4CD40C0081EE09 /* iOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDB8811B4CD40C0081EE09 /* iOSRequest.m */; };
 		BBBDB8891B4CDDD90081EE09 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDB8881B4CDDD90081EE09 /* XMLReader.m */; };
@@ -25,6 +35,7 @@
 		BBBDB8901B4E200D0081EE09 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBDB88F1B4E200D0081EE09 /* gear@2x.png */; };
 		BBBDB8941B4E22E80081EE09 /* AddAccntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDB8921B4E22E80081EE09 /* AddAccntViewController.m */; };
 		BBBDB8951B4E22E80081EE09 /* AddAccntViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDB8931B4E22E80081EE09 /* AddAccntViewController.xib */; };
+		BBE7CB171C9A18D5008E6767 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE7CB161C9A18D5008E6767 /* libsqlite3.dylib */; };
 		BBFB6D871B4B8AD8008844C2 /* AccountCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFB6D851B4B8AD8008844C2 /* AccountCellTableViewCell.m */; };
 		BBFB6D881B4B8AD8008844C2 /* AccountCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFB6D861B4B8AD8008844C2 /* AccountCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -40,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB0638171D6A4CBC00C8CFDB /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		BB0638181D6A4CBC00C8CFDB /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		BB2B98631B49AD82006FE801 /* SiValeAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiValeAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2B98671B49AD82006FE801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB2B98681B49AD82006FE801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,12 +67,25 @@
 		BB2B98881B49AF69006FE801 /* AccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsViewController.h; sourceTree = "<group>"; };
 		BB2B98891B49AF69006FE801 /* AccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsViewController.m; sourceTree = "<group>"; };
 		BB2B988A1B49AF69006FE801 /* AccountsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountsViewController.xib; sourceTree = "<group>"; };
+		BB739F7F1D4C97E700F9314E /* placeholder_background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "placeholder_background@2x.jpg"; sourceTree = "<group>"; };
+		BB739F811D4C9CBE00F9314E /* placeholder_payroll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder_payroll@2x.png"; sourceTree = "<group>"; };
+		BB80F4E31D41D506009122BA /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		BB80F4E41D41D506009122BA /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
 		BB9B5DAC1BFE30B400113D56 /* GenericSoapEnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericSoapEnv.h; sourceTree = "<group>"; };
 		BB9B5DAD1BFE30B400113D56 /* GenericSoapEnv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericSoapEnv.m; sourceTree = "<group>"; };
 		BB9B5DB21BFE420200113D56 /* GenericSoapEnvFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericSoapEnvFormatter.h; sourceTree = "<group>"; };
 		BB9B5DB31BFE420200113D56 /* GenericSoapEnvFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericSoapEnvFormatter.m; sourceTree = "<group>"; };
+		BBA9CA411D54ADC1007895A7 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		BBA9CA421D54ADC1007895A7 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		BBAE2A151C9A1997006F9D95 /* DBHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandler.h; sourceTree = "<group>"; };
+		BBAE2A161C9A1997006F9D95 /* DBHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandler.m; sourceTree = "<group>"; };
+		BBAE2A1B1C9A1DAA006F9D95 /* accountData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accountData.h; sourceTree = "<group>"; };
+		BBAE2A1C1C9A1DAA006F9D95 /* accountData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = accountData.m; sourceTree = "<group>"; };
+		BBB120111D521EEB00059194 /* master_db.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = master_db.sql; sourceTree = "<group>"; };
 		BBB162B01BFB6E73008D2E36 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		BBB162B11BFB6E73008D2E36 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		BBB3282B1D55103B00F74FF2 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		BBB3282C1D55103B00F74FF2 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 		BBBDB87E1B4CD40C0081EE09 /* NSString+WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WebService.h"; sourceTree = "<group>"; };
 		BBBDB87F1B4CD40C0081EE09 /* NSString+WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WebService.m"; sourceTree = "<group>"; };
 		BBBDB8801B4CD40C0081EE09 /* iOSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSRequest.h; sourceTree = "<group>"; };
@@ -72,6 +98,7 @@
 		BBBDB8911B4E22E80081EE09 /* AddAccntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAccntViewController.h; sourceTree = "<group>"; };
 		BBBDB8921B4E22E80081EE09 /* AddAccntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAccntViewController.m; sourceTree = "<group>"; };
 		BBBDB8931B4E22E80081EE09 /* AddAccntViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAccntViewController.xib; sourceTree = "<group>"; };
+		BBE7CB161C9A18D5008E6767 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		BBFB6D841B4B8AD8008844C2 /* AccountCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountCellTableViewCell.h; sourceTree = "<group>"; };
 		BBFB6D851B4B8AD8008844C2 /* AccountCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountCellTableViewCell.m; sourceTree = "<group>"; };
 		BBFB6D861B4B8AD8008844C2 /* AccountCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountCellTableViewCell.xib; sourceTree = "<group>"; };
@@ -82,6 +109,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE7CB171C9A18D5008E6767 /* libsqlite3.dylib in Frameworks */,
+				BB06381A1D6A4CBC00C8CFDB /* Crashlytics.framework in Frameworks */,
+				BB0638191D6A4CBC00C8CFDB /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +128,9 @@
 		BB2B985A1B49AD82006FE801 = {
 			isa = PBXGroup;
 			children = (
+				BBE7CB161C9A18D5008E6767 /* libsqlite3.dylib */,
+				BB0638171D6A4CBC00C8CFDB /* Fabric.framework */,
+				BB0638181D6A4CBC00C8CFDB /* Crashlytics.framework */,
 				BB2B98651B49AD82006FE801 /* SiValeAPP */,
 				BB2B987B1B49AD82006FE801 /* SiValeAPPTests */,
 				BB2B98641B49AD82006FE801 /* Products */,
@@ -126,6 +159,8 @@
 				BB2B986D1B49AD82006FE801 /* SiValeAPP-Prefix.pch */,
 				BB2B98881B49AF69006FE801 /* AccountsViewController.h */,
 				BB2B98891B49AF69006FE801 /* AccountsViewController.m */,
+				BB739F811D4C9CBE00F9314E /* placeholder_payroll@2x.png */,
+				BB739F7F1D4C97E700F9314E /* placeholder_background@2x.jpg */,
 				BB2B988A1B49AF69006FE801 /* AccountsViewController.xib */,
 				BBBDB8911B4E22E80081EE09 /* AddAccntViewController.h */,
 				BBBDB8921B4E22E80081EE09 /* AddAccntViewController.m */,
@@ -166,6 +201,13 @@
 		BBB162AC1BF7D8CA008D2E36 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BBB120111D521EEB00059194 /* master_db.sql */,
+				BBAE2A1B1C9A1DAA006F9D95 /* accountData.h */,
+				BBAE2A1C1C9A1DAA006F9D95 /* accountData.m */,
+				BB80F4E31D41D506009122BA /* AccountManager.h */,
+				BB80F4E41D41D506009122BA /* AccountManager.m */,
+				BBA9CA411D54ADC1007895A7 /* DBManager.h */,
+				BBA9CA421D54ADC1007895A7 /* DBManager.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -186,6 +228,8 @@
 		BBBDB88A1B4E1B030081EE09 /* CommonAPIs */ = {
 			isa = PBXGroup;
 			children = (
+				BBAE2A151C9A1997006F9D95 /* DBHandler.h */,
+				BBAE2A161C9A1997006F9D95 /* DBHandler.m */,
 				BB9B5DB21BFE420200113D56 /* GenericSoapEnvFormatter.h */,
 				BB9B5DB31BFE420200113D56 /* GenericSoapEnvFormatter.m */,
 				BB9B5DAC1BFE30B400113D56 /* GenericSoapEnv.h */,
@@ -194,6 +238,8 @@
 				BBB162B11BFB6E73008D2E36 /* GDataXMLNode.m */,
 				BBBDB88B1B4E1B7C0081EE09 /* CommonMethods.h */,
 				BBBDB88C1B4E1B7C0081EE09 /* CommonMethods.m */,
+				BBB3282B1D55103B00F74FF2 /* CustomButton.h */,
+				BBB3282C1D55103B00F74FF2 /* CustomButton.m */,
 			);
 			name = CommonAPIs;
 			sourceTree = "<group>";
@@ -226,6 +272,7 @@
 				BB2B985F1B49AD82006FE801 /* Sources */,
 				BB2B98601B49AD82006FE801 /* Frameworks */,
 				BB2B98611B49AD82006FE801 /* Resources */,
+				BB0638161D6A4C7C00C8CFDB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -265,6 +312,7 @@
 				TargetAttributes = {
 					BB2B98621B49AD82006FE801 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NXV6XENWKJ;
 					};
 					BB2B98771B49AD82006FE801 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -296,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB739F801D4C97E700F9314E /* placeholder_background@2x.jpg in Resources */,
 				BB2B988C1B49AF69006FE801 /* AccountsViewController.xib in Resources */,
 				BBBDB8901B4E200D0081EE09 /* gear@2x.png in Resources */,
 				BBBDB8951B4E22E80081EE09 /* AddAccntViewController.xib in Resources */,
@@ -303,6 +352,8 @@
 				BB2B98731B49AD82006FE801 /* LaunchScreen.xib in Resources */,
 				BB2B98701B49AD82006FE801 /* Images.xcassets in Resources */,
 				BBFB6D881B4B8AD8008844C2 /* AccountCellTableViewCell.xib in Resources */,
+				BBB120121D521EEB00059194 /* master_db.sql in Resources */,
+				BB739F821D4C9CBE00F9314E /* placeholder_payroll@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +365,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB0638161D6A4C7C00C8CFDB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 2a11623282ba8eca520dff16b6a5b80d2d420192 2efcf1363e3f50faa2de8e126b7fd11709e93c3d52ea6c95436909f210186d85";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB2B985F1B49AD82006FE801 /* Sources */ = {
@@ -327,11 +394,16 @@
 				BBBDB8821B4CD40C0081EE09 /* NSString+WebService.m in Sources */,
 				BB2B98691B49AD82006FE801 /* main.m in Sources */,
 				BB2B988B1B49AF69006FE801 /* AccountsViewController.m in Sources */,
+				BBA9CA431D54ADC1007895A7 /* DBManager.m in Sources */,
 				BBB162B21BFB6E73008D2E36 /* GDataXMLNode.m in Sources */,
 				BBBDB8891B4CDDD90081EE09 /* XMLReader.m in Sources */,
 				BB9B5DB41BFE420200113D56 /* GenericSoapEnvFormatter.m in Sources */,
+				BBAE2A171C9A1997006F9D95 /* DBHandler.m in Sources */,
+				BB80F4E51D41D506009122BA /* AccountManager.m in Sources */,
+				BBB3282D1D55103B00F74FF2 /* CustomButton.m in Sources */,
 				BBBDB88D1B4E1B7C0081EE09 /* CommonMethods.m in Sources */,
 				BB9B5DAE1BFE30B400113D56 /* GenericSoapEnv.m in Sources */,
+				BBAE2A1D1C9A1DAA006F9D95 /* accountData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,9 +528,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SiValeAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -466,9 +545,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SiValeAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
